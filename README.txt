@@ -1,3 +1,0 @@
-# Eduardo Ferras
-
-Blog Pessoal
