@@ -24,6 +24,9 @@ layout: default
          <section>
             {{ post.content }}
          </section>
+         {% if site.disqus_shortname %}
+            {% include disqus_comments.html %}
+         {% endif %}
       {% endfor %}
    </section>
    <section class="others-posts">
